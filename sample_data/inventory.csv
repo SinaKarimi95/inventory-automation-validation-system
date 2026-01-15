@@ -1,0 +1,5 @@
+item_id, item_name, quantity, location
+    101, Widget A ,       50, Warehouse 1
+    102, Widget B ,       30, Warehouse 2
+    103, Gadget C ,       20, Warehouse 1
+    104, Gadget D ,       15, Warehouse 2
