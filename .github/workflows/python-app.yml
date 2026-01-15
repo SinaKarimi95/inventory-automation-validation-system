@@ -1,0 +1,38 @@
+name: Inventory System Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1 Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2 Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      # 3 Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas matplotlib ruff
+
+      # 4 Run linter (Ruff)
+      - name: Lint with Ruff
+        run: |
+          ruff check .
+
+      # 5 Validate InventorySystem runs
+      - name: Run inventory system validation
+        run: |
+          python -c "from internal-process-automation-mock.inventory_system import InventorySystem; InventorySystem('internal-process-automation-mock/sample_data/inventory.csv')"
