@@ -83,3 +83,4 @@ Quantity: 3
 
 ## Notes
 - This is a **mock-up project** for portfolio purposes only, it does not use proprietary company data.
+- ![Inventory Validation](https://github.com/<username>/<repo>/actions/workflows/python-validation.yml/badge.svg)
