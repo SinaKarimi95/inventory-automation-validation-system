@@ -2,4 +2,4 @@ item_id,item_name,current,stock_in,stock_out,location
 101,Widget A,55,55,50,Warehouse 1
 102,Widget B,25,0,5,Warehouse 2
 103,Gadget C,20,0,0,Warehouse 1
-104,Gadget D,15,0,0,Warehouse 2
+104,Gadget D,20,5,0,Warehouse 2
