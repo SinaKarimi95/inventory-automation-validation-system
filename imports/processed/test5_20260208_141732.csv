@@ -1,0 +1,11 @@
+item_id,item_name,quantity,location
+601,Bolt M6,500,Warehouse 1
+602,Nut M6,450,Warehouse 1
+603,Washer M6,600,Warehouse 1
+604,Bolt M8,300,Warehouse 2
+605,Nut M8,280,Warehouse 2
+606,Washer M8,350,Warehouse 2
+607,Bracket Small,90,Warehouse 3
+608,Bracket Large,70,Warehouse 3
+609,Frame Plate A,40,Warehouse 3
+610,Frame Plate B,35,Warehouse 3

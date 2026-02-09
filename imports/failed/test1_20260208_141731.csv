@@ -1,0 +1,6 @@
+item_id,item_name,current,location,updated_at
+101,Widget A,60,Warehouse 1,2026-02-01 09:00:00
+102,Widget B,40,Warehouse 2,2026-02-01 09:00:00
+103,Widget C,120,Warehouse 1,2026-02-01 09:00:00
+104,Gadget D,20,Warehouse 2,2026-02-01 09:00:00
+105,Spare Part E,100,Warehouse 3,2026-02-01 09:00:00
