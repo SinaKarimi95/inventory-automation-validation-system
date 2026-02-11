@@ -128,6 +128,16 @@ Referential integrity checks, audit trail validation, transaction history verifi
 - `1` — Import validation failures
 - `2` — System error
 
+## Planned improvements
+
+This project is a compact demo. Planned, low-effort improvements for production readiness include:
+- Migrate tests to pytest with fixtures for deterministic CI.
+- Add type hints / dataclasses for domain models and enable static checks.
+- Make imports atomic per-CSV (DB transactions) and add a `--dry-run` mode for safe validation.
+- Return structured validation errors and improve logging for easier aggregation.
+
+Notes: `sample_data/` is a deterministic seed for local runs and tests; the canonical runtime store is the SQLite DB. These items are planned and can be implemented incrementally.
+
 ## License
 
 MIT License — see `LICENSE` file for details.
